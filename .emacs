@@ -90,5 +90,23 @@
 
 ;;==========================key-binding============
 
-(global-set-key (kbd "<f1>") 'eval-last-sexp)
+(global-set-key (kbd "<f1>") 'slime-compile-and-load-file)
+
+(global-set-key (kbd "<f2>") 'slime-call-defun)
+
+(global-set-key (kbd "<f3>") 'other-window)
+
+
+
+
 ;;==========================key-binding============
+
+
+;;==========================note ===================
+
+;; M - p find history from prev
+
+;; M - n find history form next
+
+;; M -. view current cursor fun
+
